@@ -26,7 +26,9 @@ public class FbSignUpLogin {
 		
 		driver.findElement(By.name("reg_email__")).sendKeys("anjuchandran153@gmail.com");
 		Thread.sleep(2000);
-		driver.findElement(By.name("reg_email_confirmation_")).sendKeys("anjuchandran153@gmail.com");
+//		driver.findElement(By.name("reg_email_confirmation_")).sendKeys("anjuchandran153@gmail.com");
+//		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"u_3_j_Ps\"]")).sendKeys("anjuchandran153@gmail.com");
 		Thread.sleep(2000);
 		
 		driver.findElement(By.name("reg_passwd__")).sendKeys("Anju123@123");
